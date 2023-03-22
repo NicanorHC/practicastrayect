@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="css/main.css">
     <!-- utf8 se refiere a las caracteristicas dentro de la pagina-->
     <meta charset="UTF-8">
      <!--compatible con el explorador ieedge-->
@@ -25,15 +26,27 @@
 
     </section>
     <hr>
-    <section>0
+    <section0>
         <h2>formulario</h2>
-        <form action=""></form>
-        <input type="text"id="nombre"placeholder="nombre">
-        <input type="text"id="apellidos"placeholder="apellidos">
-        <input type="date"id="fecha">
-        <input type="tel"id="telefono"placeholder="55-55-55-55">
-        <input type="imei"id="correo"placeholder="ejemplo@dominio.com">
-    <input type="submit"value="registrar">
+        <form action="">
+        <input type="text"id="nombre"placeholder="nombre" required >
+        <input type="text"id="apellidos"placeholder="apellidos" required>
+        <input type="date"id="fecha" required>
+        <input type="tel"id="telefono"placeholder="55-55-55-55" required>
+        <input type="imei"id="correo"placeholder="ejemplo@dominio.com" required>
+        <input type="password" id="password" placeholder="password" required>
+        <input type="file" id="archivo" required >
+        <input type="submit"value="registrar">
+        </form>
+    </section>
+    <section>
+        <div id="imagenes">
+            <img src="img/img.1.jpg" alt="barnie" class="efecto" >
+            <img src="img/img.2.jpg" alt="chango">
+            <img src="img/img.3.jpg" alt="kovaski">
+            <img src="img/img.4.jpg" alt="cabo">
+            <img src="img/img.5.jpg" alt="skiper">
+        </div>
     </section>
 </body>
 </html>
