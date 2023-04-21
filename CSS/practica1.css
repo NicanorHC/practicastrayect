@@ -1,0 +1,44 @@
+.navbar{
+    width:100%;
+    height: 50px;
+    background:pink;
+    padding:auto;
+}
+.slider{
+    width:100%;
+    height:350px;
+    background: blue;
+    padding: auto;
+}
+.doble{
+    width:100%;
+    height:300px;
+    padding: auto;
+}
+.doble{
+    display: flex;
+}
+.seccion1{
+    width:50%;
+    height:190px;
+    background:green;
+}
+.seccion2{
+    width:50%;
+    height:190px;
+    background:greenyellow;
+    position: relative;
+    float: right!important;
+
+}
+.seccion3{
+    width:100%;
+    height:190px;
+    background:brown;
+}
+.footer{
+    width:100% ;
+    padding: auto;
+    height: 50px;
+    background:black;
+}
