@@ -1,13 +1,13 @@
 .navbar{
     width:100%;
     height: 50px;
-    background:pink;
+    background:red;
     padding:auto;
 }
 .slider{
     width:100%;
     height:350px;
-    background: blue;
+    background: yellow;
     padding: auto;
 }
 .doble{
@@ -21,12 +21,12 @@
 .seccion1{
     width:50%;
     height:190px;
-    background:green;
+    background:black;
 }
 .seccion2{
     width:50%;
     height:190px;
-    background:greenyellow;
+    background:green;
     position: relative;
     float: right!important;
 
@@ -34,11 +34,11 @@
 .seccion3{
     width:100%;
     height:190px;
-    background:brown;
+    background:burlywood;
 }
 .footer{
     width:100% ;
     padding: auto;
     height: 50px;
-    background:black;
+    background:teal;
 }
