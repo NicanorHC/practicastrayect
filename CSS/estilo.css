@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 15px;
+}
+.mobile-menu{
+    display: block;
+    width: 100%;
+    background-color: green;
+    line-height: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+.mobile-menu ul{
+    list-style-type: none;
+    margin: none;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    background-color: blue;
+}
+.mobile-menu li{
+    display: inline-block;
+
+}
+.mobile-menu li:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+.mobile-menu li a
+{
+    display: block;
+    min-width: 140%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
