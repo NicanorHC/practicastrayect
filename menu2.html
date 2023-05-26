@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/menu.css">
-    <title>Menu</title>
+    <link rel="stylesheet" href="css/barra.css">
+    <title> Menu </title>
 </head>
 
 <body>
@@ -30,10 +31,10 @@
                         <li><a href="#">accesorios</a></li>
                     </ul>
                 </li>
-                <li><a href="#">telefono:55-55-55-55-55</a></li>
+                <li><a href="tel:55-55-55-55-55"></a></li>
                 <li><a href="https://twiter.com" target="_blank"></a></li>
-                <li><a href=""https://facebook.com" target="_blank""></a></li>
-                <li><a href=""https://instagram.com" target="_blank""></a></li>
+                <li><a href=""https://facebook.com" target="_blank"></a></li>
+                <li><a href=""https://instagram.com" target="_blank"></a></li>
             </ul>
             <div class="total">
                 <div class="barra">
@@ -48,10 +49,13 @@
                         </ul>
                     </div>
                     <div class="parte2">
-                        <form action=""method="post">
-                            <input type="text" placeholder="buscar" class="cajabuscar" id="buscar">
-                            <button onclick="buscar();" class="btnbuscar">buscar</button>
+                        <form onsubmit="event.preventDefault(); buscar();">
+                            <input type="text" placeholder="buscar" class="cajabuscar" id="buscarInput">
+                            <button type="submit" class="btnbuscar">buscar</button>
                         </form>
+                        
+                       
+                                               
                     </div>
                 </div>
             </div>
@@ -60,22 +64,23 @@
             <div class="main">
                 <section class="content">
                     <div class="parallax img-uno" id="m">
-                        <div class="texto-interior">
+                        <div class="texto-interior"><br>
                             <h2 id="m">diseño del proyecto</h2>
-                            <p>Bienvenido a nuestra pagina web</p>
+                            <p>Bienvenido a nuestra pagina web</p> <br>
                         </div>
                     </div>
                 </section>
             </div>
             <!--.parallax-->
             <script>
-                function buscar(){
-                    //var cajabuscar = document.getElementById("buscar") .value;
-                    var = prompt "que deseas buscar?" ;
-                    if cajabuscar ==""
-                    alert ("no colocaste nada en el buscador")
-                    else
-                    alert ("tu criterio de busqueda es : "cajabuscar)
+                function buscar() {
+                    var cajabuscar = document.getElementById("buscarInput").value;
+            
+                    if (cajabuscar === "") {
+                        alert("No has ingresado nada en el campo de búsqueda.");
+                    } else {
+                        alert("Tu criterio de búsqueda es: " + cajabuscar);
+                    }
                 }
             </script>
 </body>
